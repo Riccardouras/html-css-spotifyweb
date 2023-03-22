@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* SEMANTIC TAGS PROPERTIES */
+header{
+    background-color: #080B12;
+    position: sticky;
+    z-index: 999;
+    max-width: 100%;
+}
+main{
+    background-color: #141922;
+}
+/* UTILITIES */
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.end{
+    justify-content: end;
+}
+.wrapper{
+    flex-wrap: wrap;
+}
+.justify-center{
+    justify-content: center;
+}
+/* BUTTON PROPERTIES HEADER */
+.end button{
+    border: 1px solid white;
+    color: white;
+    padding: 0.7rem;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #080B12;
+    margin: 3%;
+    font-size: 0.7rem;
+}
+/* CONTAINER */
+.container{
+    max-width: 78%;
+    margin: 0 auto;
+}
+/* TOP-LINKS PROPERTIES */
+
+.opacity{
+    gap: 11px;
+}
+.opacity h3{
+    color: white;
+     opacity: 0.5;
+     font-size: 0.8rem;
+     margin: 15px 0 37px 0;
+}
+h3:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
