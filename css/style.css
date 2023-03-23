@@ -51,6 +51,24 @@ main{
     max-width: 78%;
     margin: 0 auto;
 }
+/* SIDE-BAR PROPERTIES */
+.side-bar{
+    height: 90%;
+    max-width: 42px;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+}
+.bar-properties img{
+    width: 27px;
+}
+#download-size{
+    width: 15px;
+    margin-left: 5px;
+}
+.spacing{
+    margin-top: 5px;
+}
 /* TOP-LINKS PROPERTIES */
 
 .opacity{
@@ -69,15 +87,4 @@ h3:hover{
 }
 h2{
     color: white;
-}
-/* SIDE-BAR PROPERTIES */
-.side-bar{
-    height: 90%;
-    max-width: 42px;
-    background-color: black;
-    position: fixed;
-    z-index: 999;
-}
-.bar-properties img{
-    width: 27px;
 }
