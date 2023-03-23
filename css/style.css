@@ -5,13 +5,21 @@
 }
 /* SEMANTIC TAGS PROPERTIES */
 header{
-    background-color: #080B12;
     position: sticky;
-    z-index: 998;
     max-width: 100%;
+}
+header nav{
+    position: fixed;
+    width: 100%;
+    background-color: #080B12;
+    margin-left: 27px;
 }
 main{
     background-color: #141922;
+    display: flex
+}
+footer{
+    background-color: ;
 }
 /* UTILITIES */
 .flex{
@@ -45,6 +53,7 @@ main{
     background-color: #080B12;
     margin: 3%;
     font-size: 0.7rem;
+    margin-right: 32px;
 }
 /* CONTAINER */
 .container{
@@ -53,11 +62,9 @@ main{
 }
 /* SIDE-BAR PROPERTIES */
 .side-bar{
-    height: 90%;
+    height: 100%;
     max-width: 42px;
     background-color: black;
-    position: fixed;
-    z-index: 999;
 }
 .bar-properties img{
     width: 27px;
@@ -70,9 +77,11 @@ main{
     margin-top: 5px;
 }
 /* TOP-LINKS PROPERTIES */
-
 .opacity{
-    gap: 11px;
+    gap: 4px;
+}
+.margins{
+    margin-top: 16%;
 }
 .opacity h3{
     color: white;
@@ -80,6 +89,14 @@ main{
      font-size: 0.8rem;
      margin: 15px 0 37px 0;
 }
+.gap {
+    gap: 22px;
+}
+/* TITLE MARGIN */
+.first-title{
+    margin-bottom: 30px;
+}
+/* FOR ALL ELEMENTS */
 h3:hover{
     transition: 0.5s;
     text-decoration: underline;
@@ -88,20 +105,49 @@ h3:hover{
 h2{
     color: white;
 }
-/* <!-- ALBUMS PROPERTIES--> */
+/*  ALBUMS PROPERTIES */
 .img-container{
     width: calc(100% / 2 - 20px);
 }
 .img-container img{
     width: 190px;
 }
-.img-container h3:first-of-type{
-    color: white;
-    text-align: center;
-}
 .img-container h3:last-child{
     opacity: 0.5;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     text-align: center;
     color: white;
+    margin-top: 20px;
+}
+.img-container h3:first-of-type{ 
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.flex-gap{
+    gap: 30px
+}
+/* SUGGESTIONS MARGINS AND PROPERTIES */
+.sug{
+    margin-top: 40px;
+}
+.sug h4{
+    opacity: 0.5;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+}
+/* SUGGESTED ALBUMS PROPERTIES */
+.sug-albums{
+    gap: 30px;
+}
+#re-write{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 1;
+    font-size: initial;
+}
+.hide{
+    display: none;
 }
