@@ -88,3 +88,20 @@ h3:hover{
 h2{
     color: white;
 }
+/* <!-- ALBUMS PROPERTIES--> */
+.img-container{
+    width: calc(100% / 2 - 20px);
+}
+.img-container img{
+    width: 190px;
+}
+.img-container h3:first-of-type{
+    color: white;
+    text-align: center;
+}
+.img-container h3:last-child{
+    opacity: 0.5;
+    font-size: 0.7rem;
+    text-align: center;
+    color: white;
+}
