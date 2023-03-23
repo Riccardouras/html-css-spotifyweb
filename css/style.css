@@ -148,6 +148,42 @@ h2{
     opacity: 1;
     font-size: initial;
 }
+/* RANDOM */
 .hide{
     display: none;
+}
+/* FOOTER */
+footer{
+    width: 100%;
+    background-color: #282828;
+}
+.footer-bar img{
+    width: 40px;
+}
+.column{
+    flex-direction: column;
+}
+.flex i{
+    color: white;
+}
+.row2 li{
+    list-style: none;
+    display: inline;
+}
+.volume{
+    max-width: 72px;
+    max-height: 7px;
+    
+}
+.actual-volume{
+    background-color: #C3C3C3;
+    width: 15px;
+    height: 7px;
+    border-radius: 20px 20px 0 20px;
+}
+.less-volume{
+    background-color: #5C5C5C;
+    width: 59px;
+    height: 7px;
+    border-radius: 20px 20px 0 20px;
 }

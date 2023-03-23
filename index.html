@@ -8,36 +8,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
-    <!-- Side Bar -->
-    <section class="side-bar">
-        <nav style="height: 100%;" class="space-between col flex justify-center">
-            <div class=" bar-properties">
-                <div class="spacing">
-                    <img src="./img/logo-small.svg" alt="Logo sidebar">
-                </div>
-                <div class="spacing">
-                    <img src="./img/home.svg" alt="Home">
-                </div>
-                <div class="spacing">
-                    <img src="./img/search.svg" alt="Lent">
-                </div>
-                <div class="spacing">
-                    <img src="./img/libreria.svg" alt="Books">
-                </div>
-            </div>
-            <div class="flex col justify-center bar-properties">
-                <div class="spacing">
-                <img id="download-size" src="./img/download.svg" alt="Download arrow">
-                </div>
-                <div class="spacing">
-                    <img src="./img/profile.svg" alt="profile">
-                </div>
-            </div>
-        </nav>
-    </section>  
-        <!-- HEADER -->
-    <header>
+<body> 
+     <!-- HEADER -->
+     <header>
         <!-- HORIZONTAL NAV-BAR -->
         <nav>
             <div class="flex align-center end">
@@ -47,77 +20,188 @@
         </nav>
     </header>
    <main>
-        <!-- TOP-LINKS -->
+      
+    <!-- Side Bar -->
         <section>
-            <div class="flex wrapper container justify-center">
-                <div class="flex wrapper opacity">
-                    <div>
-                        <h3>IN EVIDENZA</h3>
+            <section class="side-bar">
+                <nav style="height: 100%;" class="space-between col flex justify-center">
+                    <div class=" bar-properties">
+                        <div class="spacing">
+                            <img src="./img/logo-small.svg" alt="Logo sidebar">
+                            <span class="hide" style="color: white;">Logo</span>
+                        </div>
+                        <div class="spacing">
+                            <img src="./img/home.svg" alt="Home">
+                        </div>
+                        <div class="spacing">
+                            <img src="./img/search.svg" alt="Lent">
+                        </div>
+                        <div class="spacing">
+                            <img src="./img/libreria.svg" alt="Books">
+                        </div>
                     </div>
-                    <div>
-                        <h3>PODCAST</h3>
+                    <div class="flex col justify-center bar-properties">
+                        <div class="spacing">
+                        <img id="download-size" src="./img/download.svg" alt="Download arrow">
+                        </div>
+                        <div class="spacing">
+                            <img src="./img/profile.svg" alt="profile">
+                        </div>
                     </div>
-                    <div>
-                        <h3>CLASSIFICHE</h3>
+                </nav>
+            </section> 
+        </section>
+        <section>
+                <!-- TOP-LINKS -->
+                <section>
+                    <div class="flex wrapper container justify-center">
+                        <div class="flex wrapper opacity margins">
+                            <div>
+                                <h3>IN EVIDENZA</h3>
+                            </div>
+                            <div>
+                                <h3>PODCAST</h3>
+                            </div>
+                            <div>
+                                <h3>CLASSIFICHE</h3>
+                            </div>
+                            <div>
+                                <h3>GENERI E MOOD</h3>
+                            </div>
+                        </div>
+                        <div class="flex opacity gap">
+                            <div>
+                                <h3>NUOVE USCITE</h3>
+                            </div>
+                            <div>
+                                <h3>SCOPRI</h3>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h3>GENERI E MOOD</h3>
+                </section> 
+            <!-- TITLE -->
+            <SEction>
+                    <div class="container first-title">
+                        <h2>Recently played</h2>
+                    </div>
+            </SEction>
+                <!-- ALBUMS -->  
+            <section>
+                    <div class="container flex wrapper flex-gap">
+                        <div class="img-container">
+                            <img src="./img/metal_lifting.jpg" alt="HEAVY METAL">
+                            <h3>Heavy metal</h3>
+                            <h3>Subtitle</h3>
+                        </div>
+                        <div class="img-container">
+                            <img src="./img/stranger.jpeg" alt="Stranger Things">
+                            <h3>Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h3>
+                            <h3>Kyle Dixon & Michael Stein</h3>
+                        </div>
+                        <div class="img-container">
+                            <img src="./img/aquietplace.jpeg" alt="Quiet Place">
+                            <h3>A quiet Place</h3>
+                            <h3>Subtitle</h3>
+                        </div>
+                        <div class="img-container">
+                            <img src="./img/split.jpeg" alt="Split">
+                            <h3>Split</h3>
+                            <h3>Subtitle</h3>
+                        </div>
+                        <div class="img-container">
+                            <img src="./img/cure.jpeg" alt="Cure">
+                            <h3>A Cure for Welness</h3>
+                            <h3>Subtitle</h3>
+                        </div>
+                        <div class="img-container">
+                            <img src="./img/sinister.jpeg" alt="Sinister">
+                            <h3>Sinister</h3>
+                            <h3>Subtitle</h3>
+                        </div>
+                    </div>
+            </section>
+            <!-- SUGGESTIONS -->
+            <section>
+                    <div class="container sug">
+                        <h2>Creato per Jhon Doe</h2>
+                        <h4>Più ascolti più accurati saranno i suggerimenti</h4>
+                    </div>
+            </section>
+            <!-- SUGGESTED ALBUMS -->
+            <section>
+                    <div class="flex wrapper sug-albums container">
+                        <div class="img-container">
+                            <img src="./img/radar.jpeg" alt="Realise Radar">
+                            <h3 id="re-write">Relise Radar</h3>
+                        </div>
+                        <div class="img-container">
+                            <img src="./img/mixdaily.jpeg" alt="Daily Mix">
+                            <h3 id="re-write">Daily Mix</h3>
+                        </div>
+                    </div>
+            </section>
+            <!-- POPULAR -->
+            <section>
+                    <div class="container sug">
+                        <h2>Artisti più popolari</h2>
+                        <h4>Più ascolti più accurati saranno i suggerimenti</h4>
+                    </div>
+            </section>
+            <!-- POPULAR ARTIST -->
+            <section>
+                <div class="flex wrapper sug-albums container">
+                    <div class="img-container">
+                        <img src="./img/einaudi.jpeg" alt="einaudi">
+                        <h3 id="re-write">Relise Radar</h3>
+                    </div>
+                    <div class="img-container">
+                        <img src="./img/youg.jpeg" alt="youg">
+                        <h3 id="re-write">Daily Mix</h3>
                     </div>
                 </div>
-                <div class="flex opacity">
-                    <div>
-                        <h3>NUOVE USCITE</h3>
-                    </div>
-                    <div>
-                        <h3>SCOPRI</h3>
-                    </div>
-                </div>
-            </div>
-        </section> 
-      <!-- TITLE -->
-       <SEction>
-            <div class="container">
-                <h2>Recently played</h2>
-            </div>
-       </SEction>
-        <!-- ALBUMS -->  
-       <section>
-            <div class="container flex wrapper">
-                <div class="img-container">
-                    <img src="./img/metal_lifting.jpg" alt="HEAVY METAL">
-                    <h3>Heavy metal</h3>
-                    <h3>Subtitle</h3>
-                </div>
-                <div class="img-container">
-                    <img src="./img/stranger.jpeg" alt="Stranger Things">
-                    <h3>Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h3>
-                    <h3>kyle Dixon & Michael Stein</h3>
-                </div>
-                <div class="img-container">
-                    <img src="./img/aquietplace.jpeg" alt="Quiet Place">
-                    <h3>A quiet Place</h3>
-                    <h3>Subtitle</h3>
-                </div>
-                <div class="img-container">
-                    <img src="./img/split.jpeg" alt="Split">
-                    <h3>Split</h3>
-                    <h3>Subtitle</h3>
-                </div>
-                <div class="img-container">
-                    <img src="./img/cure.jpeg" alt="Cure">
-                    <h3>A Cure for Welness</h3>
-                    <h3>Subtitle</h3>
-                </div>
-                <div class="img-container">
-                    <img src="./img/sinister.jpeg" alt="Sinister">
-                    <h3>Sinister</h3>
-                    <h3>Subtitle</h3>
-                </div>
-            </div>
-       </section>
-   </main>
+        </section>
+    </section>
+        </main>
     <footer>
-
+        <section>
+            <div class="flex align-center space-between">
+                <div class="flex footer-bar">
+                    <img src="./img/sinister.jpeg" alt="">
+                    <div>
+                        <h5>Sinister</h5>
+                        <p>Brano</p>
+                        <p>nome</p>
+                    </div>
+                </div>
+                <div class="flex column">
+                    <i class="fa-solid fa-heart fa-xs"></i>
+                    <i class="fa-regular fa-folder"></i>
+                </div>
+                <div class="flex">
+                    <div class="row2">
+                        <ul>
+                            <li><i class="fa-solid fa-shuffle"></i></li>
+                            <li><i class="fa-solid fa-backward-step"></i></li>
+                            <li><i class="fa-regular fa-circle-play"></i></li>
+                            <li><i class="fa-solid fa-forward-step"></i></li>
+                            <li><i class="fa-solid fa-arrow-rotate-right"></i></li>
+                        </ul>
+                    </div>
+                    <div class="flex row2">
+                        <ul>
+                            <li><i class="fa-solid fa-list"></i></li>
+                            <li><i class="fa-solid fa-desktop"></i></li>
+                            <li><i class="fa-solid fa-volume-high"></i></li>
+                        </ul>
+                        <div class="volume flex">
+                            <div class="actual-volume"></div>
+                            <div class="less-volume"></div>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
