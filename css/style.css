@@ -178,18 +178,17 @@ footer{
 }
 .volume{
     max-width: 72px;
-    max-height: 7px;
-    
+    margin-left: 20px;
 }
 .actual-volume{
     background-color: #C3C3C3;
     width: 15px;
-    height: 7px;
-    border-radius: 20px 20px 0 20px;
+    height: 4px;
+    border-radius: 20px 20px 20px 0 ;
 }
 .less-volume{
     background-color: #5C5C5C;
     width: 59px;
-    height: 7px;
-    border-radius: 20px 20px 0 20px;
+    height: 4px;
+    border-radius: 20px 0px 20px 20px ;
 }
