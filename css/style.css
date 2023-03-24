@@ -192,3 +192,63 @@ footer{
     height: 4px;
     border-radius: 20px 0px 20px 20px ;
 }
+.footer-size{
+    height: 80px;
+}
+@media screen and (min-width: 481px) and (max-width: 780px) {
+    header nav{
+        margin-left: 106px;
+    }
+    .end button{
+        margin-right: 111px;
+    }
+    .side-bar{
+        max-width: 307px;
+        height: 200%;
+        overflow-y: auto;
+    }
+    .hide {
+        display: block;
+    }
+    .spacing{
+        display: flex;
+        margin: 10px;
+    } 
+    .spotify img{
+        width: 34px;
+    }
+    hr{
+        margin-left: -19px;
+        opacity: 0.5;
+        color: white;
+    }
+    .container{
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    .img-container {
+        width: calc(100% / 4);
+    }
+    .flex-gap{
+        gap: 0;
+    }
+    .img-container img {
+        max-width: 152px;
+    }
+    .margin-top{
+        margin-top: 16%;
+    }
+    .margins {
+        margin: 0;
+    }
+    .gap{
+        gap: 0;
+    }
+    .opacity{
+        gap: 0;
+    }
+    .space > div h3{
+        margin: 17px;
+    }
+    
+}
